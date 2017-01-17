@@ -6,7 +6,21 @@
 
 open fullscreen app even in multi monitor
 
-在
+如果你已經有寫過openframeworks僅需要知道在main.cpp加入
+
+if you already wrote some oF code, just need know add code in main.cpp
+
+```
+#include "ofAppGLFWWindow.h"
+int main(){
+  ofAppGLFWWindow win;
+  win.setMultiDisplayFullscreen(true); //this makes the fullscreen window span across all your monitors
+  ofSetupOpenGL(&win, 800,500, OF_FULLSCREEN);
+  ofRunApp(new ofApp());
+}
+```
+
+其他在
 
 >data/setting.xml
 
@@ -48,4 +62,3 @@ Log out and Log in again, and it will work.
 ★keyboard control: 
 1. spacebar空白鍵>>暫停或播放pause or play
 2. P     >>從頭開始播放play from start
-
