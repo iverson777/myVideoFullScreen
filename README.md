@@ -54,11 +54,17 @@ Log out and Log in again, and it will work.
 
 ★如果無法開啟執行檔，請嘗試以下步驟
 ★if can not launch application, follow setps please
+
 1. 安裝vc_redist.x86.exe(2015 32位元電腦)，vc_redist.x64.exe(2015 64位元電腦)
+
 2. 移除相關Apple程式再重裝(reinstall apple program)
+
 3. 以上都無法解決，請安裝vs_community.exe(需網路)
+
 
 ★操作說明：
 ★keyboard control: 
+
 1. spacebar空白鍵>>暫停或播放pause or play
+
 2. P     >>從頭開始播放play from start
