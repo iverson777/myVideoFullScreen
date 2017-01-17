@@ -28,4 +28,5 @@ class ofApp : public ofBaseApp{
     bool            loaded;
     ofxXmlSettings  XML;
     string          message;
+	bool			isPaused;
 };

@@ -1,8 +1,32 @@
 <SETTING>
     <SIZE>
-        <WIDTH>245.288086</WIDTH>
-        <HEIGHT>140.568756</HEIGHT>
+        <WIDTH>1920</WIDTH>
+        <HEIGHT>1080</HEIGHT>
     </SIZE>
 </SETTING>
-<!--重要!!!在MAC系統中，需要先進"系統偏好設定">>Mission Control>>顯示器有單獨Space不能打勾
-修改後登出再登入即可 -->
+<!--
+此程式能夠開啟跨顯示器全螢幕視窗，修改width, height可改變視窗中影片尺寸
+
+★★重要提醒★★
+★影片請放data資料夾，命名為video.mp4
+
+
+★在MAC系統中，多螢幕情況下需要在"系統偏好設定">>Mission Control>>顯示器有單獨Space不能打勾
+修改後登出再登入即可 
+
+★在WINDOWS系統中，如果開啟後畫面全灰，可能是系統沒有影片編碼器，可至
+https://www.codecguide.com/download_kl.htm
+下載安裝
+
+★如果無法開啟執行檔，請嘗試以下步驟
+1. 安裝tools/vc_redist.x86.exe(32位元電腦)，tools/vc_redist.x64.exe(64位元電腦)
+2. 移除相關Apple程式再重裝
+3. 以上都無法解決，請安裝tools/vs_community.exe(需網路)
+
+★操作說明：
+1. 空白鍵>>暫停或播放
+2. P     >>從頭開始播放
+
+-->
+
+

@@ -19,6 +19,9 @@ void ofApp::setup(){
     
     ofSetWindowShape(width,height);
     ofSetWindowPosition(0,0);
+	ofSetVerticalSync(false);
+
+	isPaused = false;
 }
 
 //--------------------------------------------------------------
@@ -41,7 +44,14 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    
+	if (key == ' ') {
+		isPaused = !isPaused;
+		vid.setPaused(isPaused);
+	}
+	if (key == 'p') {
+		vid.stop();
+		vid.play();
+	}
 }
 
 //--------------------------------------------------------------
